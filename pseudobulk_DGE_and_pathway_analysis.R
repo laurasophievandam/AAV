@@ -2,8 +2,7 @@
 # Pseudobulk differential gene expression
 # ==============================================================================
 # Works on either the annotated T-cell or B-cell object (see
-# Tcell_subclustering_annotation.R / Bcell_subclustering_annotation.R) - both
-# carry the same `annotated_clusters` and `expansion_status` metadata columns.
+# Tcell_subclustering_annotation.R / Bcell_subclustering_annotation.R) 
 # Subsets to one cell-type cluster (and, by default, clonally expanded cells),
 # aggregates to pseudobulk per patient, and runs an edgeR-based differential
 # expression test between two groups.
