@@ -136,7 +136,7 @@ Inspect `ElbowPlot(merged)` before committing to the number of Harmony dimension
 
 ### 2. `Tcell_subclustering_annotation.R`
 
-Re-normalizes and clusters the T-cell subset, drops residual `CD19+` cells, assigns the paper’s T-cell labels, then attaches clonotypes with [scRepertoire](https://github.com/ncborcherding/scRepertoire).
+Re-normalizes and clusters the T-cell subset, drops residual `CD19+` cells, assigns the paper’s T-cell labels, then attaches clonotypes with scRepertoire.
 
 Set `INPUT_RDS` to the T-lineage object from step 1 (`Tcells_raw.rds`). The placeholder in the script currently says `merged_clustered.rds`; use the T-cell subset so cluster labels match T-cell biology.
 
